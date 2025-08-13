@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2020",
+    "outDir": "dist",
+    "lib": [
+      "ES2020"
+    ],
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "rootDir": "src",
+    "types": [
+      "node",
+      "jest"
+    ],
+    "baseUrl": "./src",
+    "paths": {
+      "@backend/*": [
+        "backend/*"
+      ],
+      "@shared/*": [
+        "shared/*"
+      ],
+      "@frontend/*": [
+        "frontend/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
