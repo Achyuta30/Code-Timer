@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Code Timer Extension
 
 Measure execution time for Java, C++, Python, JavaScript with one click.
@@ -23,3 +24,7 @@ Measure execution time for Java, C++, Python, JavaScript with one click.
   - C++: `g++` must be in PATH
   - Python: `python` must be in PATH
   - JavaScript: `node` must be in PATH
+=======
+# Projects
+Private repository for storing and managing personal project code.
+>>>>>>> fc98ecf5e6663e8df086b99676a926e955635ca1
